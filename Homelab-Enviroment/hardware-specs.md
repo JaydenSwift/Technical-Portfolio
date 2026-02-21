@@ -2,7 +2,7 @@
 
 This document outlines the physical and logical hardware configuration of my primary home server node. The goal of this build was to create a power-efficient yet capable virtualization environment for testing, self-hosting, and network experimentation.
 
-## **🖥️ Node Overview: Proxmox Virtualization Environment**
+## **Node Overview: Proxmox Virtualization Environment**
 
 The heart of my lab is a single-node **Proxmox VE** cluster. I chose Proxmox for its robust KVM virtualization, LXC container support, and the flexibility of its Debian-based underpinnings.
 
@@ -10,7 +10,7 @@ The heart of my lab is a single-node **Proxmox VE** cluster. I chose Proxmox for
 * **Operating System:** Proxmox VE 8.1.x (No-Subscription)  
 * **Optimization:** Configured with intel\_iommu=on for IOMMU grouping, allowing for future PCIe/GPU pass-through to virtual machines.
 
-## **🔩 Physical Hardware**
+## **Physical Hardware**
 
 I selected the **Lenovo P320 Tower** as the foundation due to its workstation-grade reliability, support for ECC memory, and compact form factor.
 
@@ -22,7 +22,7 @@ I selected the **Lenovo P320 Tower** as the foundation due to its workstation-gr
 | **Memory (Current)** | 32 GB DDR4 ECC UDIMM | **Upgrade:** Migrated to ECC for data integrity and expanded headroom. |
 | **Motherboard** | Custom Lenovo P320 | Workstation-grade chipset. |
 
-## **🛜 Networking & Connectivity**
+## **Networking & Connectivity**
 
 The networking stack is designed to handle multiple VLANs and bridge traffic between virtual environments and the physical network.
 
@@ -31,7 +31,7 @@ The networking stack is designed to handle multiple VLANs and bridge traffic bet
   * **Management IP:** 192.168.0.200/24  
 * **Isolated Bridge (vmbr1):** A secondary bridge used for internal traffic and segmenting lab experiments from the primary home network.
 
-## **💾 Storage Architecture**
+## **Storage Architecture**
 
 My storage strategy balances speed for operating systems and high capacity for media/backups.
 
