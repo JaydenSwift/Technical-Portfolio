@@ -13,6 +13,7 @@ The lab sits behind a standard home router gateway (192.168.X.X), but the intern
 | **Main Lab Net** | 10.0.0.0/24 | Primary segment for core services and tools. |
 | **DMZ** | 10.0.1.0/24 | The "Demilitarized Zone" contains the JumpBox for secure external access. |
 | **Victim Net** | 10.0.2.0/24 | An isolated sandbox for vulnerable machines and testing. |
+| **VPN Net** | 10.0.99.0/24 | Where VPN connected hosts reside before interacting with the network. | 
 
 ## **Security & Perimeter Control**
 
@@ -26,7 +27,7 @@ The pfSense instance acts as the central point of the network. It handles:
 
 ### **Access Control**
 
-To maintain high security, direct access to the lab from my home network is restricted. A **JumpBox** residing in the DMZ (10.0.1.0/24) acts as the single point of entry, ensuring that management traffic is easily controlled.
+To maintain high security, direct access to the lab from my home network is restricted. A user must first have the appropriate keys to connect to the **WireGuard** VPN. Which then allows them access to a **JumpBox** residing in the DMZ (10.0.1.0/24), which acts as the single point of entry, ensuring that management traffic is easily controlled.
 
 ## **Security Monitoring (SIEM)**
 
@@ -46,6 +47,7 @@ These services provide the lab's infrastructure support:
 * **Bookstack:** Centralized documentation and knowledge base.  
 * **Vaultwarden:** Self-hosted credential management.  
 * **File Browser:** Web-based file management for easy file sharing.
+* **Pulse:** Complete system monitoring.
 
 ### **Penetration Testing Lab**
 
