@@ -53,6 +53,10 @@ Moving away from manual configuration toward a "rebuildable" infrastructure.
 
 **│   ├── logstash-intergration.md    \# Centralized logging & pipeline config**
 
+**│   ├── pulse-dashboard.md    \# Centralized network monitoring**
+
+**│   ├── wireguard-vpn.md    \# VPN remote access**
+
 **│   └── terraform-automation.md   \# IaC workflows for "Victim Net" creation**
 
 **└── README.md                             \# Portfolio overview & vision**
