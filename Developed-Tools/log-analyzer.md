@@ -58,3 +58,5 @@ This project represents a major milestone in my development journey, specificall
 * **Inter-process Communication:** Learning how to successfully pass data between a C\# GUI and a Python script.  
 * **XAML & C\# Development:** Having experience with developing a modern-looking application made in a multi-functional language.   
 * **Security Context:** Designing a tool specifically for security workflows, focusing on the speed and accuracy required for incident response.
+
+[**Demo Video**](https://www.linkedin.com/posts/jayden-swift_development-python-coding-activity-7396982578714624000-cC9s?utm_source=share&utm_medium=member_desktop&rcm=ACoAAETLal8BnV5SG_MPz5gKsj1YkIG9OACUzpc)
