@@ -1,6 +1,6 @@
 # **Technical Portfolio: Infrastructure & Security Engineering**
 
-A collection of projects focused on building, securing, and automating complex environments. This portfolio documents a journey through systems administration, security operations (SecOps), and custom tool development.
+A collection of projects focused on building, securing, and automating complex environments. This portfolio documents my journey through systems administration, security operations (SecOps), and custom tool development.
 
 ## **Vision**
 
@@ -12,7 +12,7 @@ The goal of this environment is to simulate enterprise-grade security challenges
 
 The foundation of this portfolio is a segmented virtualization environment built on **Proxmox**.
 
-* **Airlock Access Model:** Implementation of a "Jumpbox" architecture to isolate management traffic from the primary home network using VLAN segmentation and SOCKS5 SSH tunneling.  
+* **Airlock Access Model:** Implementation of a "Jumpbox" architecture to isolate management traffic from the primary home network using VPN access, VLAN segmentation, and SOCKS5 SSH tunneling.  
 * **Virtual Perimeter:** Centralized routing and firewalling via **pfSense**, managing multiple subnets including a DMZ, Core Services, and an isolated "Victim Net."  
 * **Centralized Management:** A "Landing Pad" file repository for lab-wide script distribution and auditing.
 
@@ -20,7 +20,7 @@ The foundation of this portfolio is a segmented virtualization environment built
 
 Hybrid applications designed to solve specific security workflows, utilizing **C\# (WPF)**, **Python**, and **PowerShell**.
 
-* **Security Parsing:** Tools built to transform unstructured log data into actionable intelligence through custom regex engines and visual analytics.  
+* **Security Parsing:** Tools built to transform unstructured log data into actionable information through custom pattern engines and visual analytics.  
 * **Compliance Auditing:** System utilities that bridge the gap between passive monitoring and active security verification, using XML-based rule ingestion for dynamic compliance checks.  
 * **Identity Management:** Full-lifecycle automation for Active Directory, ranging from bulk user onboarding to rapid offboarding scripts for incident response.
 
@@ -64,7 +64,7 @@ Moving away from manual configuration toward a "rebuildable" infrastructure.
 ## **Tech Stack**
 
 * **Hypervisors:** Proxmox VE  
-* **Networking:** pfSense, VLAN Tagging, SOCKS5  
+* **Networking:** pfSense, VLAN Tagging, SOCKS5, VPN  
 * **Languages:** Python (CustomTkinter), C\# (WPF), PowerShell, Bash  
 * **Monitoring/SIEM:** Wazuh, Logstash, Syslog  
 * **Automation:** Terraform, Cloud-Init, API Integration
