@@ -58,6 +58,8 @@ Moving away from manual configuration toward a "rebuildable" infrastructure.
 
 **│   ├── wireguard-vpn.md    \# VPN remote access**
 
+**│   ├── soar-pipeline.md    \# Automating Incident Response**
+
 **│   └── terraform-automation.md   \# IaC workflows for "Victim Net" creation**
 
 **└── README.md                             \# Portfolio overview & vision**
