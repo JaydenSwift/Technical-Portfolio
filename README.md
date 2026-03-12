@@ -30,6 +30,7 @@ Moving away from manual configuration toward a "rebuildable" infrastructure.
 
 * **Environment Provisioning:** Using **Terraform** paired with **Cloud-Init** to deploy pre-hardened, network-ready Linux environments in seconds.  
 * **Centralized Logging (SIEM):** A data pipeline routing traffic from firewalls through **Logstash** and finally into **Wazuh** for security monitoring and threat hunting.
+* **Security Orchestration, Automation, and Response (SOAR) Integration:** Using tools like **Shuffle** and **Velociraptor** to automate and simplify incident response for systems.
 
 ## **Repository Structure**
 
