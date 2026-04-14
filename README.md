@@ -38,6 +38,8 @@ Moving away from manual configuration toward a "rebuildable" infrastructure.
 
 **│   ├── log-analyzer.md                   \# C\# & Python hybrid parsing tool**
 
+**│   ├── Vigilantv2.md                   \# Enhanced Multi-Node auditing tool**
+
 **│   └── vigilant-application.md           \# Windows compliance auditing tool**
 
 **├── Homelab-Enviroment/              \# Infrastructure documentation & IaC**
