@@ -64,6 +64,10 @@ Moving away from manual configuration toward a "rebuildable" infrastructure.
 
 **│   └── terraform-automation.md   \# IaC workflows for "Victim Net" creation**
 
+**├── Pangolin-OS/              \# Security Focused Linux Distribution**
+
+**│   └── pangolin-creation.md   \# Build Proccess for Pangolin**
+
 **└── README.md                             \# Portfolio overview & vision**
 
 ## **Tech Stack**
